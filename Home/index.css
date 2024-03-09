@@ -1,0 +1,66 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  background: linear-gradient(300deg, #0048bd, #33338a, #0048bd);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  text-align: center;
+  height: 500px;
+}
+.name {
+  font-family: cursive;
+  font-size: 120px;
+  margin-bottom: 20px;
+  color: white;
+  padding-top: 200px;
+}
+.job-title {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+.profile-img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.skills {
+  text-align: center;
+  margin-left: 350px;
+  margin-right: 150px;
+}
+.skills > div > h2 {
+  font-family: cursive;
+}
+.footer {
+  text-align: left;
+  margin-top: 100px;
+  height: 200px;
+  background-color: #33338a;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  text-align: left;
+  margin-left: 20px;
+}
+.nav {
+  justify-content: right;
+  padding: 10px;
+  background-color: black;
+  height: 100px;
+}
+.a {
+  margin: 20px;
+  font-size: larger;
+  font-weight: bolder;
+  color: white;
+}
+.img-class {
+  float: left;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 20%;
+}
